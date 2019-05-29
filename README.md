@@ -24,6 +24,20 @@ FINDMIN
   BR FINDMIN
   
 GIVEMIN
-  STI 
+  PUTS MINIS
 
 FINDMAX
+
+
+
+
+
+TS1     .FILL x3200
+TS2     .FILL x3201
+TS3     .FILL x3202
+TS4     .FILL x3203
+TS5     .FILL x3204
+
+MINIS   .STRINGZ "The minimum value is "
+MAXIS   .STRINGZ "The maximum value is "
+AVGIS   .STRINGZ "The average value is "
