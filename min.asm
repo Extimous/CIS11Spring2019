@@ -1,14 +1,10 @@
 .ORIG x3000
+
 LDI R1, TS1
 LDI R2, TS2
 LDI R3, TS3
 LDI R4, TS4
 LDI R5, TS5
-
-
-
-
-
 
 FINDMIN
   ADD R1, R1, #-1
@@ -28,10 +24,6 @@ GIVEMIN
   PUTS MINZ
 
 FINDMAX
-
-
-
-
 
 TS1     .FILL x3200
 TS2     .FILL x3201
