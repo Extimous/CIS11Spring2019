@@ -1,9 +1,9 @@
 .ORIG x3000
-LDI R0, TS1
-LDI R1, TS2
-LDI R2, TS3
-LDI R3, TS4
-LDI R4, TS5
+LDI R1, TS1
+LDI R2, TS2
+LDI R3, TS3
+LDI R4, TS4
+LDI R5, TS5
 
 
 
@@ -11,20 +11,21 @@ LDI R4, TS5
 
 
 FINDMIN
-  ADD R0, R0, #-1
-  BRN GIVEMIN
   ADD R1, R1, #-1
-  BRz GIVEMIN
+  BRN GIVEMIN
   ADD R2, R2, #-1
   BRz GIVEMIN
   ADD R3, R3, #-1
   BRz GIVEMIN
   ADD R4, R4, #-1
   BRz GIVEMIN
+  ADD R5, R5, #-1
+  BRz GIVEMIN
   BR FINDMIN
   
 GIVEMIN
-  PUTS MINIS
+  STI R1, MIN
+  PUTS MINZ
 
 FINDMAX
 
@@ -37,7 +38,10 @@ TS2     .FILL x3201
 TS3     .FILL x3202
 TS4     .FILL x3203
 TS5     .FILL x3204
+MIN     .FILL x3205
+MAX     .FILL x3206
+AVG     .FILL x3207
 
-MINIS   .STRINGZ "The minimum value is "
-MAXIS   .STRINGZ "The maximum value is "
-AVGIS   .STRINGZ "The average value is "
+MINZ   .STRINGZ "The minimum value is: "
+MAXZ   .STRINGZ "The maximum value is: "
+AVGZ   .STRINGZ "The average value is: "
