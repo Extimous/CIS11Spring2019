@@ -96,8 +96,7 @@ MAX     .FILL x3206
 AVG     .FILL x3207
 
 MINZ   .STRINGZ "The minimum value is: "
-MAXZ   .STRINGZ "The maximum value is: "
-AVGZ   .STRINGZ "The average value is: "
+
 
 
 
