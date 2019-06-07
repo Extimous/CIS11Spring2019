@@ -42,7 +42,7 @@ Jason Ibrahim
 
 5/23: Documentation completed, continue working on min, max, avg functions
 
-5/28: Work on number to ascii and multi character input
+5/28: Work on ASCII to decimal value conversion and multi character input
 
 5/30: Continue work on multi character input and get started on output
 
