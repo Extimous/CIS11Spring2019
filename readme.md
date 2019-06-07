@@ -1,5 +1,7 @@
-# CIS11 Test Score Calculator Program 
+# CIS11 Test Score Calculator Program Version 1.0
 ### Create an LC-3 program that displays the minimum, maximum and average grade of 5 test scores and display the letter grade  associated with the test scores. 
+
+Date Created: June 6, 2019
 ```
 Input: User is prompt to input the test scores.
 Output: Display maximum, minimum, average score and letter grade equivalence 
@@ -45,3 +47,16 @@ Projected Task Completion Timeline:
 5/30: continue work on multi character input and get started on output
 
 6/3: finish output, test program, fix any problems that arise
+
+### Program Instructions
+1. Download LC-3 from http://www.lc3help.com/downloads.htm
+2. Follow instructions to install.
+3. Download the asm file from our page.
+4. Once installed, open up the LC-3 Editor.
+5. In the LC-3 Editor, click "File" then click "Open" from the drop down menu, and select the asm file you download from our page.
+6. Then click "Translate" and click "Assemble" from the dropdown menu.
+7. Open up the LC-3 simulator.
+8. In the LC-3 simulator, click "File" then click "Load Program" from the drop down menu, and select the .obj file.
+9. Click "Execute", then click "Run."
+10. Open up the LC-3 Console.
+11. A prompt should appear in the console asking for inputs, then just follow the instructions to use the test score calculator program.
