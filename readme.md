@@ -20,28 +20,30 @@ Output: Display maximum, minimum, average score and letter grade equivalence
 12.	Use appropriate system call directives. (10 point)
 13.	Testing (20 points): Test the program using the below values
 
-Team Name: Flying Spaghetti Monsters
-Team Members:
+### Team Name: Flying Spaghetti Monsters
+### Team Members:
 Samuel Elizarraras
-            	Randy Son
-            	Jason Ibrahim
-Allocated Tasks for each member:
+
+Randy Son
+
+Jason Ibrahim
+### Allocated Tasks for each member:
 1.       Multi-character input - Sam
 2.       Create stack for test scores ability to push/pop test scores - Jason
 3.   	Analytical functions
-a.   	Minimum function - Jason
-b.   	Maximum function  - Randy
-c.   	Average function - Sam
+        a.   	Minimum function - Jason
+        b.   	Maximum function  - Randy
+        c.   	Average function - Sam
 4.       Convert data to readable text - Randy
 5.       Output to console
-Projected Task Completion Timeline:
 
-5/21: get started on documentation as well as the min, max, avg functions
+### Projected Task Completion Timeline:
+5/21: Get started on documentation as well as the min, max, avg functions
 
-5/23: documentation completed, continue working on min, max, avg functions
+5/23: Documentation completed, continue working on min, max, avg functions
 
-5/28: work on number to ascii and multi character input
+5/28: Work on number to ascii and multi character input
 
-5/30: continue work on multi character input and get started on output
+5/30: Continue work on multi character input and get started on output
 
-6/3: finish output, test program, fix any problems that arise
+6/03: Finish output, test program, fix any problems that arise
